@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1.+'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2.+'
     }
 }
         
@@ -22,7 +22,7 @@ sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = co
 minecraft {
     mappings "stable_20"
 
-    version = "${minecraft_version}-${forge_version}-${minecraft_version}"
+    version = "${minecraft_version}-${forge_version}"
     runDir = "run"
 }
 
